@@ -1,0 +1,11 @@
+@import "./bulma.css";
+
+.container {
+  margin-top: 2rem;
+  color: red;
+
+  & > .description,
+  & > .title {
+    text-align: center;
+  }
+}
